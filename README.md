@@ -9,4 +9,10 @@
 Control your computer using hand gestures - A Python-based computer vision project
 </div>
 
+## ✨ Demo & Interface
+
+<div align="center">
+  <img src="assets/app_interface.png" alt="Air Gesture Control Interface" width="800"/>
+</div>
+
 [... rest of the README content ...]
