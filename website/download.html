@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirNav - Download</title>
+    <style>
+        :root {
+            --primary-color: #1a237e;
+            --secondary-color: #0d47a1;
+            --accent-color: #2196f3;
+            --text-color: #333;
+            --light-bg: #f5f5f5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            padding: 3rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .download-section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        .download-card {
+            background: var(--light-bg);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            transition: transform 0.3s ease;
+        }
+
+        .download-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .version {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .download-button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .download-button:hover {
+            background: #1976d2;
+        }
+
+        .features {
+            list-style: none;
+            margin: 1rem 0;
+        }
+
+        .features li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .features li::before {
+            content: "✓";
+            color: var(--accent-color);
+            position: absolute;
+            left: 0;
+        }
+
+        .requirements {
+            background: #e3f2fd;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        .requirements h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+
+        .social-links {
+            margin: 1rem 0;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-links a:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AirNav</h1>
+        <p class="subtitle">Download the latest version of AirNav - Air Gesture Control Application</p>
+    </header>
+
+    <div class="container">
+        <section class="download-section">
+            <div class="download-card">
+                <div class="version">Version 1.0.0</div>
+                <p>Latest stable release with all features and improvements.</p>
+                <ul class="features">
+                    <li>Hand gesture recognition for system control</li>
+                    <li>Customizable gesture profiles</li>
+                    <li>Real-time camera feed with gesture visualization</li>
+                    <li>System volume and brightness control</li>
+                    <li>Mouse cursor control with palm gestures</li>
+                </ul>
+                <div class="requirements">
+                    <h3>System Requirements</h3>
+                    <ul>
+                        <li>Windows 10 or later</li>
+                        <li>Webcam with at least 720p resolution</li>
+                        <li>4GB RAM minimum</li>
+                        <li>500MB free disk space</li>
+                    </ul>
+                </div>
+                <a href="installer/AirNav_Setup.exe" class="download-button">Download AirNav 1.0.0</a>
+            </div>
+        </section>
+
+        <section class="download-section">
+            <h2>Installation Instructions</h2>
+            <ol>
+                <li>Download the installer file</li>
+                <li>Run the installer with administrator privileges</li>
+                <li>Follow the installation wizard</li>
+                <li>Launch AirNav from the Start menu or desktop shortcut</li>
+                <li>Grant camera permissions when prompted</li>
+            </ol>
+        </section>
+
+        <section class="download-section">
+            <h2>Release Notes</h2>
+            <h3>Version 1.0.0</h3>
+            <ul>
+                <li>Initial release</li>
+                <li>Basic gesture recognition system</li>
+                <li>System control features</li>
+                <li>User interface with camera feed</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">Documentation</a>
+            <a href="#">Support</a>
+        </div>
+        <p>&copy; 2024 AirNav. All rights reserved.</p>
+    </footer>
+</body>
+</html> 

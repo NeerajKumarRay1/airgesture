@@ -1,0 +1,18 @@
+{
+    "profiles": [
+        {
+            "name": "Default",
+            "actions": {
+                "volume_up": "Two fingers up - Right hand",
+                "volume_down": "Two fingers down - Right hand",
+                "brightness_up": "Two fingers up - Left hand",
+                "brightness_down": "Two fingers down - Left hand",
+                "mouse_move": "Index finger - Right hand",
+                "left_click": "Pinch - Right hand",
+                "right_click": "Pinch - Left hand",
+                "scroll_up": "Palm up - Left hand",
+                "scroll_down": "Palm down - Left hand"
+            }
+        }
+    ]
+}
